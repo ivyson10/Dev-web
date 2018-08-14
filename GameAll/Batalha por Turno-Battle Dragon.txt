@@ -1,0 +1,27 @@
+----------------------------------------------------------BATTLE DRAGON--------------------------------------------------------------
+
+--> Sistema de batalha em turnos fixos;
+--> Cada equipe possui 3 dragões;
+--> O vencedor é aquele que eliminar o último dragão do adversário;
+--> Em cada rodada, o ataque é feito por um único dragão de cada equipe escolhido pelo jogador (não poderá haver repetição de dragões);
+--> Cada Dragão possui uma habilidade especial (limitador na habilidade para o uso) e um ataque básico;
+--> Em cada rodada, começando do segundo round, cada dragão recebe + 1 de mana (é o necessário para usar a habilidade), não ultrapassando o limite de mana do dragão;
+
+--> Definição de Dragões (Personagens do jogo)
+	Dragão de Pedra: Dragão tanque, resistente ao dano e com muita vida;
+	Dragão de Gelo: Dragão especializado em controle de grupo (impedir jogada de um dragão do adversário);
+	Dragão de Fogo: Dragão especialista em dano bruto e com pouca vida;
+
+--> Balanceamento dos Dragões -- Vida, Mana, ataque básico e habilidade:
+	Dragão de Pedra: HP - 200, MP 2, DMG - 10, SPELL - 20
+	Dragão de Gelo:  HP - 170, MP 3, DMG - 15, SPELL - 30 
+	Dragão de Fogo:  HP - 150, MP 2,  DMG - 20, SPELL - 45
+
+
+Equipe: Ivyson Lucas, José Valdenício, Paulo Bruno, Pedro Michael, Wesley Oliveira
+
+
+
+
+
+
