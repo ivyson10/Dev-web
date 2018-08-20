@@ -299,6 +299,7 @@
   <ItemGroup>
     <Compile Include="Assets\ClickFollow.cs" />
     <Compile Include="Assets\ClickMove.cs" />
+    <Compile Include="Assets\Follower.cs" />
     <Compile Include="Assets\IClickable.cs" />
     <Compile Include="Assets\Navigator.cs" />
     <Compile Include="Assets\Network.cs" />

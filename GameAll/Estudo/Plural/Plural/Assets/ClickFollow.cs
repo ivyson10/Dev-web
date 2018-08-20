@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class ClickFollow : MonoBehaviour, IClickable
 {
-    public GameObject myPlayer;
+    public Follower myPlayerFollower;
 
     public void OnClick(RaycastHit hit)
     {
         Debug.Log("Following " + hit.collider.gameObject.name);
+        myPlayerFollower.target = transform;
+        
     }
 }
